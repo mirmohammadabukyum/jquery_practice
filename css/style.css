@@ -73,3 +73,27 @@
     min-height: 100vh;
     background-blend-mode: multiply;
 }
+
+
+@media (max-width: 600px){
+	.banner-section{
+	background: #343a40 url(../images/slide.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 50vh;
+    background-blend-mode: multiply;
+}
+	.stats{
+		font-size: 10px;
+		display: block;
+	}
+	.stats h3{
+		font-size: 10px;
+	}
+	.stats h1{
+		font-size: 10px;
+	}
+	.stat2 span{
+		font-size: 10px;
+	}
+}
