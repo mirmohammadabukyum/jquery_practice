@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/lightbox.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <title>owl-carousel</title>
+    
+  </head>
+  <body>
+    <section class="banner-section">
+      <div id="particles-js"></div>
+    </section>
+    <!-- owl carousel and lightbox -->
+    <div class="slider-section py-5">
+      <div class="container">
+        <div class="owl-carousel owl-theme">
+          <div class="item"> 
+            <img src="images/attorneys01.png" alt="attorneys" class="img-fluid shadow">
+            <a href="images/attorneys01.png" data-lightbox="attorneys" data-title="Attorneys1">+</a>
+          </div>
+          <div class="item"> 
+            <img src="images/attorneys02.png" alt="attorneys" class="img-fluid shadow">
+            <a href="images/attorneys02.png" data-lightbox="image-2" data-title="Attorneys2">+</a>
+          </div>
+          <div class="item"> 
+            <img src="images/attorneys03.png" alt="attorneys" class="img-fluid shadow">
+            <a href="images/attorneys03.png" data-lightbox="image-3" data-title="Attorneys3">+</a>
+          </div>
+          <div class="item"> 
+            <img src="images/attorneys04.png" alt="attorneys" class="img-fluid shadow">
+            <a href="images/attorneys04.png" data-lightbox="image-4" data-title="Attorneys4">+</a>
+          </div>
+          <div class="item"> 
+            <img src="images/team1.png" alt="attorneys" class="img-fluid shadow">
+            <a href="images/team1.png" data-lightbox="image-5" data-title="Attorneys5">+</a>
+          </div>
+          <div class="item"> 
+            <img src="images/team2.png" alt="attorneys" class="img-fluid shadow">
+            <a href="images/team2.png" data-lightbox="image-6" data-title="Attorneys6">+</a>
+          </div>
+          <div class="item"> 
+            <img src="images/team3.png" alt="attorneys" class="img-fluid shadow">
+            <a href="images/team3.png" data-lightbox="image-7" data-title="Attorneys7">+</a>
+          </div>
+          <div class="item"> 
+            <img src="images/team4.png" alt="attorneys" class="img-fluid shadow">
+            <a href="images/team4.png" data-lightbox="image-8" data-title="Attorneys8">+</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="stats text-white text-center bg-dark py-5 my-5">
+      <div class="container">
+        <div class="row py-5">
+          <div class="col">
+            <h3>Numbers of Coffee</h3>
+            <h1 class="counter">1000000</h1>
+          </div>
+          <div class="col">
+            <h3>Awards</h3>
+            <h1 class="counter">854440</h1>
+          </div>
+          <div class="col">
+            <h3>Works</h3>
+            <h1 class="counter">1500000</h1>
+          </div>
+          <div class="col">
+            <h3>Running Projects</h3>
+            <h1 class="counter">2000000</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+ <div class="stats text-white text-center bg-dark py-5 my-5">
+      <div class="container">
+        `   <h1>New Year Countdown</h1>
+            <div class="row py-5 myCountdown" data-date="2019-12-31 23:59:59">
+              <div class="col"><span class="counter-days"></span> Days</div>
+              <div class="col"><span class="counter-hours"></span> Hours</div>
+              <div class="col"><span class="counter-minutes"></span> Minutes</div>
+              <div class="col"><span class="counter-seconds"></span> Seconds</div>
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- <script src="js/jquery-3.4.1.min.js"></script> -->
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <!-- <script src="js/jquery-3.4.1.min.js"></script> -->
+
+    <script src="js/waypoints.min.js"></script>
+
+    <script src="js/jquery.counterup.min.js"></script>
+
+    <script src="js/countdown_loopcounter.js"></script>
+    <script src="js/particles.js"></script>
+    <!-- <script src="js/particles.min.js"></script> -->
+    <script src="js/app.js"></script>
+    
+    
+    <script>
+      // $.noConflict();
+        jQuery(document).ready(function($) {
+            $('.counter').counterUp({
+                delay: 10,
+                time: 1000
+            });
+        });
+    </script>
+    <!-- <script src="js/jquery-3.4.1.min.js"></script> -->
+    <!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script> -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" ></script>
+    
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/lightbox.min.js"></script>
+    
+    <script>
+      // $.noConflict();
+      $(document).ready(function(){
+        var owl = $(".owl-carousel");
+        owl.owlCarousel({
+        items:4,
+        lazyLoad:true,
+        autoplay:true,
+        margin:10,
+        loop:true,
+        //1s=1000
+        autoplayTimeout:1000,
+        autoplayHoverPause:true,
+        //nav:true,   navigation arrow
+        responsive:{
+        0:{
+            items:1
+        },
+        400:{
+            items:2
+        },
+        600:{
+            items:3
+        },            
+        960:{
+            items:5
+        },
+        1200:{
+            items:3
+        }
+    }
+      });
+      owl.on('mousewheel', '.owl-stage', function (e) {
+      if (e.deltaY>0) {
+          owl.trigger('next.owl');
+      } else {
+          owl.trigger('prev.owl');
+      }
+      e.preventDefault();
+});
+      });
+    </script>
+
+    <!-- lightbox script -->
+    <script>
+      lightbox.option({
+      'resizeDuration': 200,
+      'wrapAround': false,
+      'showImageNumberLabel':false,
+      'alwaysShowNavOnTouchDevices':false,
+      'fitImagesInViewport':true
+    })
+    </script>
+    <script>
+      $(function(){
+      loopcounter('myCountdown');
+      });
+    </script>
+    
+  </body>
+</html>
